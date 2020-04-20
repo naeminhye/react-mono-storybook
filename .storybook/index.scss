@@ -1,0 +1,10 @@
+.story--wrapper {
+  #story-root {
+    display: flex;
+    justify-content: center;
+
+    >:not(:first-child) {
+        margin-left: 2em;
+    }
+  }
+}

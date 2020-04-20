@@ -1,13 +1,13 @@
 import React from "react";
-import { action } from "@storybook/addon-actions";
+
+/** Plugins */
+// import { action } from "@storybook/addon-actions";
+// import { text, select, boolean } from "@storybook/addon-knobs";
+
+/** Components */
 import { Steps } from "react-mono";
 
-export default {
-  title: "Steps",
-  component: Steps,
-};
-
-export const Normal = () => (
+const story = () => (
   <Steps>
     <Steps.Step
       status="finish"
@@ -35,3 +35,5 @@ export const Normal = () => (
     />
   </Steps>
 );
+
+export default story;
