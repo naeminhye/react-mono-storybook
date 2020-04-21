@@ -26,7 +26,7 @@ const App = () => (
 ```
 
 ## 🔗 Links
-- [Live Demo](https://naeminhye.github.io/react-mono/)
+- [Go Live](https://naeminhye.github.io/react-mono-storybook/)
 
 ## Develop components with Storybook
 
