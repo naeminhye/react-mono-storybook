@@ -1,7 +1,7 @@
 import React from "react";
 
 /** Plugins */
-import { text, select, boolean } from "@storybook/addon-knobs";
+import { text, select } from "@storybook/addon-knobs";
 
 /** Components */
 import { Tooltip, Tag } from "react-mono";

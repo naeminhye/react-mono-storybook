@@ -2,13 +2,12 @@
 import React from "react";
 
 /** Plugins */
-import { action } from "@storybook/addon-actions";
-import { text, select, boolean, number } from "@storybook/addon-knobs";
+import { text, select, number } from "@storybook/addon-knobs";
 
 /** Components */
 import { Carousel } from "react-mono";
 
-import { slideData } from "./data";
+import { carouselData } from "../data";
 
 const itemRender = (data) => {
   return (
@@ -34,7 +33,7 @@ const story = () => (
   <div style={{ width: "100%" }}>
     <Carousel
       heading={text("heading", "Carousel")}
-      slides={slideData}
+      slides={carouselData}
       itemWidth={number("itemWidth", 320)}
       itemHeight={number("itemHeight", 400)}
       itemMargin={number("itemMargin", 10)}

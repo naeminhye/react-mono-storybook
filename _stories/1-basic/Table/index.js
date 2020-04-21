@@ -7,7 +7,9 @@ import { text, select, boolean } from "@storybook/addon-knobs";
 /** Components */
 import { Table } from "react-mono";
 
-import { columns, dataSource } from "./data";
+import { tableData } from "../data";
+
+const { columns, dataSource } = tableData;
 
 const story = () => (
   <Table

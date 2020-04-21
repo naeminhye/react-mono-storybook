@@ -6,7 +6,7 @@ import { action } from "@storybook/addon-actions";
 /** Components */
 import { DropDown } from "react-mono";
 
-import { dropdownOptions } from "./data";
+import { dropdownOptions } from "../data";
 
 const story = () => (
   <DropDown
