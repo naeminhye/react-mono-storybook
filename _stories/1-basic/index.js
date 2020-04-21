@@ -5,7 +5,7 @@ import Avatar from "./Avatar";
 import Button from "./Button";
 import Card from "./Card";
 import Carousel from "./Carousel";
-import CheckBox from "./CheckBox";
+// import CheckBox from "./CheckBox";
 import CheckList from "./CheckList";
 import DatePicker from "./DatePicker";
 import DropDown from "./DropDown";
@@ -14,7 +14,7 @@ import Form from "./Form";
 import Input from "./Input";
 import Overlay from "./Overlay";
 import Progress from "./Progress";
-import RadioBox from "./RadioBox";
+// import RadioBox from "./RadioBox";
 import RadioList from "./RadioList";
 import Steps from "./Steps";
 import Table from "./Table";
@@ -27,7 +27,7 @@ storiesOf("Basic Components", module)
   .add("Button", Button)
   .add("Card", Card)
   .add("Carousel", Carousel)
-  .add("CheckBox", CheckBox)
+  // .add("CheckBox", CheckBox)
   .add("CheckList", CheckList)
   .add("DatePicker", DatePicker)
   .add("DropDown", DropDown)
@@ -36,7 +36,7 @@ storiesOf("Basic Components", module)
   .add("FlipCard", FlipCard)
   .add("Overlay", Overlay)
   .add("Progress", Progress)
-  .add("RadioBox", RadioBox)
+  // .add("RadioBox", RadioBox)
   .add("RadioList", RadioList)
   .add("Steps", Steps)
   .add("Table", Table)
