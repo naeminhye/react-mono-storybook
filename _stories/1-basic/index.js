@@ -7,17 +7,20 @@ import Card from "./Card";
 import Carousel from "./Carousel";
 // import CheckBox from "./CheckBox";
 import CheckList from "./CheckList";
+import Collapse from "./Collapse";
 import DatePicker from "./DatePicker";
 import DropDown from "./DropDown";
 import FlipCard from "./FlipCard";
 import Form from "./Form";
 import Input from "./Input";
+import List from "./List";
 import Overlay from "./Overlay";
 import Progress from "./Progress";
 // import RadioBox from "./RadioBox";
 import RadioList from "./RadioList";
 import Steps from "./Steps";
 import Table from "./Table";
+import ToggleSwitch from "./ToggleSwitch";
 import Tooltip from "./Tooltip";
 import Uploader from "./Uploader";
 
@@ -29,10 +32,12 @@ storiesOf("Basic Components", module)
   .add("Carousel", Carousel)
   // .add("CheckBox", CheckBox)
   .add("CheckList", CheckList)
+  .add("Collapse", Collapse)
   .add("DatePicker", DatePicker)
   .add("DropDown", DropDown)
   .add("Form", Form)
   .add("Input", Input)
+  .add("List", List)
   .add("FlipCard", FlipCard)
   .add("Overlay", Overlay)
   .add("Progress", Progress)
@@ -40,5 +45,6 @@ storiesOf("Basic Components", module)
   .add("RadioList", RadioList)
   .add("Steps", Steps)
   .add("Table", Table)
+  .add("ToggleSwitch", ToggleSwitch)
   .add("Tooltip", Tooltip)
   .add("Uploader", Uploader);
